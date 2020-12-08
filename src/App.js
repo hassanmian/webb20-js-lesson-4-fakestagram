@@ -22,6 +22,7 @@ function App() {
             <NavLinkItem to="/" text="Home" />
             <NavLinkItem to="/about" text="About" />
             <NavLinkItem to="/contact" text="Contact" />
+            <NavLinkItem to="/instagram" text="Instagram" />
           </ul>
         </div>
       </div>
