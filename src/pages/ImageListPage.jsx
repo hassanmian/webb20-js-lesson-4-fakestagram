@@ -30,8 +30,9 @@ export default function ImageListPage() {
       <h2>Instagram</h2>
       
       <div className="row">
-        {imageList.map( imageItem => {
+        {imageList.map( (imageItem, index) => {
           return <ImageItem 
+            imageIndex={index}
             key={imageItem.id} 
             imageItem={imageItem} 
           />
