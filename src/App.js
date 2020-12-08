@@ -4,6 +4,7 @@ import NavLinkItem from './components/NavLinkItem';
 import AboutPage from './pages/AboutPage';
 import ContactPage from './pages/ContactPage';
 import HomePage from './pages/HomePage';
+import ImageDetailPage from './pages/ImageDetailPage';
 import ImageListPage from './pages/ImageListPage';
 
 function App() {
@@ -28,6 +29,8 @@ function App() {
       </div>
       
       <Switch>
+
+        <Route path="/instagram/:id" component={ImageDetailPage} />
 
         <Route path="/instagram">
           <ImageListPage />
